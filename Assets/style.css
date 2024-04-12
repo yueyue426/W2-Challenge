@@ -1,0 +1,132 @@
+:root {
+    --main-color: rgb(50, 48, 48);
+    --text-color: black;
+    --background-color: white;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    background-color: var(--background-color);
+    width: 100%;
+    nav {
+        ul{
+            list-style-type: none;
+            justify-content: end;
+            /* padding-left: 80%; */
+            display: flex;       
+            padding-block: 20px;
+            margin: 0;
+            li {
+                padding-inline: 1%;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-shadow: 2px 2px 4px black;
+            }
+        }
+    }
+}
+
+header nav ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+section {
+    padding: 1rem;
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* add space between image and text */
+    margin: 3% 10%;
+}
+
+.about-text {
+    text-align: left;
+    line-height: 1.5;
+    max-width: 20rem;
+    padding-left: 5%;
+}
+
+.about-image {
+    flex: 0 1 150px;
+    height: auto;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.text-color {
+    color: var(--main-color);
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.project {
+    flex: 1;
+    min-width: 200px;
+}
+
+/* .main-project {
+    flex: 2;
+} */
+
+.project img {
+    width: 60%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .about-text {
+        text-align: center;
+    }
+}
+
+.project-hover:hover {
+    transform: scale(120%);
+    box-shadow: 8px 8px 15px black;
+}
+
+.text-link {
+    text-decoration: none;
+    color: black;
+}
+
+.project-title {
+    padding-bottom: 50px;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.contact-title {
+    padding-bottom: 5px;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.foot-text {
+    text-align: center;
+}
