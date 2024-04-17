@@ -8,8 +8,7 @@ a {
 
 body {
     /* add backgournd image */
-    background-image: url('/image/image1.jpg');
-    background-image: url('image/image1.jpg');
+    background-image: url('..image/image1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
