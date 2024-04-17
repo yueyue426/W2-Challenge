@@ -14,7 +14,9 @@ body {
 
     header {
         background-color: rgba(56, 128, 187, 0.08);
-        display: fixed;
+        position: fixed;
+        top: 0;
+        width: 100%;
 
         ul {
             padding-left: 40px;
@@ -111,6 +113,17 @@ body {
     transform: scale(110%);
     box-shadow: 8px 8px 15px black;
 }
+
+/* fixme */
+/* .add-gif {
+    width: 400px;
+    height: 400px;
+    position: static;
+    bottom: 260px;
+    left: 76%;
+    border-radius: 200px;
+    background-image: url('image/2iiB.gif');
+} */
 
 /* Tablets - main change size */
 @media screen and (max-width: 992px) {
