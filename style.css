@@ -111,3 +111,24 @@ body {
     transform: scale(110%);
     box-shadow: 8px 8px 15px black;
 }
+
+/* Tablets - main change size */
+@media screen and (max-width: 992px) {
+    .main-media {
+       width: 80%;
+    }
+  }
+  
+  /* Large smartphones - main change size */
+  @media screen and (max-width: 768px) {
+    .main-media {
+        width: 80%;
+    }
+  }
+  
+  /* Small smartphones - main change size */
+  @media screen and (max-width: 576px) {
+    .main-media {
+        width: 80%;
+    }
+  }
