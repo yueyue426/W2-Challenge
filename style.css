@@ -25,6 +25,7 @@ body {
 
         ul {
             padding-left: 40px;
+
             li {
                 display: inline-block;
                 padding: 20px;
@@ -63,6 +64,7 @@ body {
                 line-height: 1.5;
             }
         }
+
         /* set attributes to h2 */
         h2 {
             font-family: var(--my-font);
@@ -76,11 +78,13 @@ body {
         /* set attributes to the projects section */
         .project {
             padding-bottom: 150px;
+
             .project-list {
                 a img {
                     width: 30%;
                     margin: 20px 0 0 90px;
-                    opacity: 0.8; /* set transparency of the image */
+                    opacity: 0.8;
+                    /* set transparency of the image */
                     border-radius: 15px;
                 }
 
@@ -92,10 +96,10 @@ body {
                     padding: 100px 40px;
                     vertical-align: top;
                     text-shadow: 3px 3px 5px black;
-                }
 
-                h3 {
-                    padding-bottom: 10px;
+                    h3 {
+                        padding-bottom: 10px;
+                    }
                 }
             }
         }
@@ -103,6 +107,7 @@ body {
         /* set attributes to the contact me section */
         .contact-me {
             padding-bottom: 800px;
+
             ul {
                 font-family: var(--my-font);
                 margin: 10px 200px 0 90px;
@@ -115,6 +120,7 @@ body {
         }
 
     }
+
     footer {
         font-family: var(--my-font);
         text-align: center;
@@ -141,20 +147,20 @@ body {
 /* Tablets - main change size */
 @media screen and (max-width: 992px) {
     .main-media {
-       width: 80%;
+        width: 80%;
     }
-  }
-  
-  /* Large smartphones - main change size */
-  @media screen and (max-width: 768px) {
+}
+
+/* Large smartphones - main change size */
+@media screen and (max-width: 768px) {
     .main-media {
         width: 80%;
     }
-  }
-  
-  /* Small smartphones - main change size */
-  @media screen and (max-width: 576px) {
+}
+
+/* Small smartphones - main change size */
+@media screen and (max-width: 576px) {
     .main-media {
         width: 80%;
     }
-  }
+}
