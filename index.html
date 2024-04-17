@@ -4,76 +4,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="Assets/reset.css" />
-    <link rel="stylesheet" type="text/css" href="Assets/style.css" />
     <title>Chloe's Portfolio</title>
+    <link rel="stylesheet" href="asset/reset.css" type="text/css">
+    <link rel="stylesheet" href="asset/style.css" type="text/css">
 </head>
 
 <body>
-    <!-- Navbar -->
     <header>
         <nav>
             <ul>
-                <li><a href="#about-me">About</a></li>
-                <li><a href="#my-work">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Course Projects</a></li>
+                <li><a href="#contacts">Contact Me</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Body -->
     <main>
-        <!-- About Me Section -->
-        <section id="about-me">
-            <div class="about-container main-project">
-                <img src="Assets/images/OIG3.KKjxlGR.jpg" alt="a girl with a cat" class="about-image">
-                <div class="about-text">
-                    <h1>Chloe Jiang</h1>
-                    <p class="text-color"> I'm on an exciting journey as a web development learner, deeply passionate about coding
-                        and problem-solving. 
-                    </p>
+        <!-- About me section -->
+        <div class="about-me" id="about">
+            <h1>Hi! I AM CHLOE.</h1>
+            <P>I'm on an exciting journey as a web development learner, deeply passionate about coding
+                and problem-solving.</P>
+        </div>
+
+        <!-- Projects section -->
+        <h2 id="projects">Course Projects</h2>
+        <div class="project">
+
+            <!-- The first Project -->
+            <div class="project-list">
+                <a href="https://github.com/yueyue426/W1-Challenge.git">
+                    <img class="project-hover" src="image/project-1.png">
+                </a>
+                <div>
+                    <p>Prework Study Guide</p>
                 </div>
             </div>
-        </section>
+            <!--The second Project -->
+            <div class="project-list">
+                <a href="https://github.com/yueyue426/W1-Challenge.git">
+                    <img class="project-hover" src="image/project-2.png">
+                </a>
+                <div>
+                    <p>Horiseon</p>
+                </div>
+            </div>
+        </div>
 
-        <!-- My Work Section -->
-        <section id="my-work">
-            <h2 class="project-title">Some of My Work</h2>
-            <div class="projects">
-                <div class="project main-project">
-                    <a class="text-link" href="https://github.com/yueyue426/prework-study-guide.git">
-                        <img class="project-hover" src="Assets/images/project-1.png" alt="main project">
-                        <p>Prework Study Guide</p>
-                    </a>
-                </div>
-                <div class="project main-project">
-                    <a class="text-link" href="https://github.com/yueyue426/W1-Challenge.git">
-                        <img class="project-hover" src="Assets/images/project-2.png" alt="main project">
-                        <p class="text-link">Horiseon</p>
-                    </a>
-                </div>
-                <div class="project main-project">
-                    <a class="text-link" href="#">
-                        <img class="project-hover" id="image-size" src="Assets/images/OIG2.jpg" alt="main project">
-                        <p class="text-link">To Be Continued...</p>
-                    </a>
-                </div>
-        </section>
-
-        <!-- Contact Info Section -->
-        <section id="contact">
-            <h2 class="contact-title">Contact Me</h2>
+        <!-- Contact section -->
+        <h2 id="contacts">Contact Me</h2>
+        <div class="contact-me">
             <ul>
                 <li>Email: <a href="chloe.jiangy@gamil.com">chloe.jiangy@gmail.com</a></li>
                 <li>GitHub: <a href="https://github.com/yueyue426">https://github.com/yueyue426</a></li>
             </ul>
-        </section>
+        </div>
     </main>
 
-    <!-- Footer -->
     <footer>
-        <p class="foot-text">@ Chloe Jiang</p>
+        <p>&copy; 2024  The Background Image is Generative AI Artwork</p>
     </footer>
+
 </body>
 
 </html>

@@ -1,0 +1,113 @@
+* {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    /* add backgournd image */
+    background-image: url('/image/image1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    header {
+        background-color: rgba(56, 128, 187, 0.08);
+        display: fixed;
+
+        ul {
+            padding-left: 40px;
+            li {
+                display: inline-block;
+                padding: 20px;
+                font-size: 19px;
+                font-family: monospace;
+            }
+        }
+    }
+
+    main {
+        background-color: rgba(188, 202, 213, 0.20);
+        box-shadow: 5px 5px 20px rgb(13, 13, 13);
+        border-radius: 20px;
+        width: 53%;
+        height: 780px;
+        margin-top: 50px;
+        margin-left: 80px;
+        overflow: auto;
+
+        .about-me {
+            font-family: monospace;
+            padding-block: 300px;
+
+            h1 {
+                font-size: 30px;
+                font-weight: bolder;
+                padding-top: 80px;
+                padding-left: 90px;
+            }
+
+            p {
+                font-size: 15px;
+                padding: 15px 200px 10px 90px;
+                line-height: 1.5;
+            }
+        }
+
+        h2 {
+            font-family: monospace;
+            font-size: 20px;
+            font-weight: bolder;
+            padding: 50px 0 10px 0;
+            margin: 0 200px 0 90px;
+            border-bottom: 2px solid;
+        }
+
+        .project {
+            padding-bottom: 150px;
+            .project-list {
+                a img {
+                    width: 30%;
+                    margin: 20px 0 0 90px;
+                    opacity: 0.8; /* set transparency of the image */
+                    border-radius: 15px;
+                }
+
+                div {
+                    display: inline-block;
+                    width: 30%;
+                    font-family: monospace;
+                    margin-top: 20px;
+                    padding: 100px 40px;
+                    vertical-align: top;
+                    text-shadow: 3px 3px 5px black;
+                }
+            }
+        }
+
+        .contact-me {
+            padding-bottom: 800px;
+            ul {
+                font-family: monospace;
+                margin: 10px 200px 0 90px;
+                font-weight: bold;
+
+                li {
+                    padding-block: 8px;
+                }
+            }
+        }
+
+    }
+    footer {
+        font-family: monospace;
+        text-align: center;
+        padding-top: 16px;
+    }
+}
+
+.project-hover:hover {
+    transform: scale(110%);
+    box-shadow: 8px 8px 15px black;
+}
